@@ -1,5 +1,7 @@
-<%@ Page Language="C#" %>
-<%
-    string num = "8749";
-%>
-<h1><%= num%></h1>
+<html>
+    <body>
+        <h1>
+            <% out.println("8749"); %>
+        </h1>
+    </body>
+</html>
